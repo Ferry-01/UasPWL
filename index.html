@@ -1,0 +1,22 @@
+<div class="modal fade" id="tambah_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form class="modal-content" action="<?php echo base_url() . 'admin/data_barang/tambah_aksi'; ?>" method="post" enctype="multipart/form-data">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Form Input Produk</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Jenis Produk</label>
+                    <select class="form-control" name="jenis">
+                        <option>Menu Biasa</option>
+                        <option>Menu Hotplate</option>
+                        <option>Menu Panas</option>
+                        <option>Menu Dingin</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
